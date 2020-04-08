@@ -20,7 +20,6 @@ namespace Routing
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                //.AddJsonFile("appsettings1.json", optional: false, reloadOnChange: true)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     

@@ -22,5 +22,7 @@ namespace Server
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+            //.AddJsonFile("appsettings1.json", optional: false, reloadOnChange: true)
+            
     }
 }

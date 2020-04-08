@@ -25,6 +25,7 @@
       "Routing/1.0.0": {
         "dependencies": {
           "Markdig": "0.18.3",
+          "Microsoft.EntityFrameworkCore.Design": "3.1.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.3",
           "Shared": "1.0.0",
