@@ -773,11 +773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ReDent\\source\\repos\\Routing\\Shared\\Shared.csproj",
+      "projectUniqueName": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "C:\\Users\\ReDent\\source\\repos\\Routing\\Shared\\Shared.csproj",
+      "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj",
       "packagesPath": "C:\\Users\\ReDent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ReDent\\source\\repos\\Routing\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ReDent\\AppData\\Roaming\\NuGet\\NuGet.Config",

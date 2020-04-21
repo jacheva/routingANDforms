@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Blazor.FileReader;
 using Microsoft.AspNetCore.Builder;
@@ -12,7 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Routing.Data;
 using Routing.Helpers;
-
+using Routing.Repository;
 
 namespace Routing
 {
@@ -32,6 +33,13 @@ namespace Routing
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddTransient<IRepository, RepositoryInMemory>();
+
+            services.AddHttpClient();
+            services.AddScoped<HttpClient>();
+            services.AddScoped<IHttpService, HttpService>();
+            services.AddScoped<IGenreRepository, GenreRepository>();
+            services.AddScoped<IPersonRepository, PersonRepository>();
+
             services.AddSingleton<WeatherForecastService>();
             services.AddFileReaderService(options => options.InitializeOnFirstCall = true);
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ReDent\\source\\repos\\Routing\\Server\\Server.csproj": {}
+    "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ReDent\\source\\repos\\Routing\\Server\\Server.csproj": {
+    "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ReDent\\source\\repos\\Routing\\Server\\Server.csproj",
+        "projectUniqueName": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\Users\\ReDent\\source\\repos\\Routing\\Server\\Server.csproj",
+        "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\ReDent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ReDent\\source\\repos\\Routing\\Server\\obj\\",
+        "outputPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ReDent\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ReDent\\source\\repos\\Routing\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\ReDent\\source\\repos\\Routing\\Shared\\Shared.csproj"
+              "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj"
               }
             }
           }
@@ -97,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\ReDent\\source\\repos\\Routing\\Shared\\Shared.csproj": {
+    "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ReDent\\source\\repos\\Routing\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\ReDent\\source\\repos\\Routing\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\ReDent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ReDent\\source\\repos\\Routing\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ReDent\\AppData\\Roaming\\NuGet\\NuGet.Config",
