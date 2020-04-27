@@ -16,7 +16,6 @@ namespace Routing.Helpers
             this.httpClient = httpClient;
         }
 
-
         public async Task <HttpResponseWrapper<object>> Post <T>(string url, T data)
         {
             var dataJson = JsonSerializer.Serialize(data);
