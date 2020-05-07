@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 using Blazor.FileReader;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Routing.Auth;
 using Routing.Data;
 using Routing.Helpers;
 using Routing.Repository;
@@ -37,11 +39,15 @@ namespace Routing
             services.AddHttpClient();
             services.AddScoped<HttpClient>();
             services.AddScoped<IHttpService, HttpService>();
+
             services.AddScoped<IGenreRepository, GenreRepository>();
             services.AddScoped<IPersonRepository, PersonRepository>();
+            services.AddScoped<IMoviesRepository, MoviesRepository>();
 
             services.AddSingleton<WeatherForecastService>();
             services.AddFileReaderService(options => options.InitializeOnFirstCall = true);
+            services.AddAuthorizationCore();
+            services.AddScoped<AuthenticationStateProvider, DummyAuthenticationStateProvider>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

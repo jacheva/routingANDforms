@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200429220146_RemoeExtraColumn.cs" />
+    <Compile Remove="Migrations\20200429220146_RemoeExtraColumn.Designer.cs" />
+    <Compile Remove="Migrations\20200429220217_RemoveExtraColumn.cs" />
+    <Compile Remove="Migrations\20200429220217_RemoveExtraColumn.Designer.cs" />
+    <Compile Remove="Migrations\20200430183007_RemoveExtraColumn.cs" />
+    <Compile Remove="Migrations\20200430183007_RemoveExtraColumn.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.3">
       <PrivateAssets>all</PrivateAssets>
@@ -18,14 +29,15 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Shared\Shared.csproj" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\Share.csproj" />
   </ItemGroup>
 
 

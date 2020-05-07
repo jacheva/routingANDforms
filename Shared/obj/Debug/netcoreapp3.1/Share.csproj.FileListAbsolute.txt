@@ -1,0 +1,11 @@
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\bin\Debug\netcoreapp3.1\Share.deps.json
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\bin\Debug\netcoreapp3.1\Share.runtimeconfig.json
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\bin\Debug\netcoreapp3.1\Share.runtimeconfig.dev.json
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\bin\Debug\netcoreapp3.1\Share.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\bin\Debug\netcoreapp3.1\Share.pdb
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\obj\Debug\netcoreapp3.1\Share.csprojAssemblyReference.cache
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\obj\Debug\netcoreapp3.1\Share.AssemblyInfoInputs.cache
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\obj\Debug\netcoreapp3.1\Share.AssemblyInfo.cs
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\obj\Debug\netcoreapp3.1\Share.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\obj\Debug\netcoreapp3.1\Share.pdb
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Shared\obj\Debug\netcoreapp3.1\Share.genruntimeconfig.cache

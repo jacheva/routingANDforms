@@ -78,7 +78,7 @@ namespace Server.Migrations
                     b.Property<string>("Character")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Odrer")
+                    b.Property<int>("Order")
                         .HasColumnType("int");
 
                     b.HasKey("MovieID", "PersonId");
@@ -93,13 +93,10 @@ namespace Server.Migrations
                     b.Property<int>("MovieId")
                         .HasColumnType("int");
 
-                    b.Property<int>("GenresId")
+                    b.Property<int>("GenreId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("GenreId")
-                        .HasColumnType("int");
-
-                    b.HasKey("MovieId", "GenresId");
+                    b.HasKey("MovieId", "GenreId");
 
                     b.HasIndex("GenreId");
 
@@ -134,13 +131,13 @@ namespace Server.Migrations
             modelBuilder.Entity("Routing.Entities.MoviesActors", b =>
                 {
                     b.HasOne("Routing.Entities.Movie", "Movie")
-                        .WithMany()
+                        .WithMany("MoviesActors")
                         .HasForeignKey("MovieID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Routing.Entities.Person", "Person")
-                        .WithMany()
+                        .WithMany("MoviesActors")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -150,7 +147,9 @@ namespace Server.Migrations
                 {
                     b.HasOne("Routing.Entities.Genre", "Genre")
                         .WithMany("MoviesGenres")
-                        .HasForeignKey("GenreId");
+                        .HasForeignKey("GenreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Routing.Entities.Movie", "Movie")
                         .WithMany("MoviesGenres")

@@ -12,6 +12,6 @@ namespace Routing.Entities
         public Person Person { get; set; }
         public Movie Movie { get; set; }
         public string Character { get; set; }
-        public int Odrer { get; set; }
+        public int Order { get; set; }
     }
 }

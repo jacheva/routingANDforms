@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj"
+              "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Share.csproj": {
+                "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Share.csproj"
               }
             }
           }
@@ -42,6 +42,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.3, )"
@@ -73,6 +81,10 @@
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[4.7.0, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
             }
           },
           "imports": [
@@ -97,12 +109,12 @@
         }
       }
     },
-    "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj": {
+    "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Share.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj",
-        "projectName": "Shared",
-        "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Share.csproj",
+        "projectName": "Share",
+        "projectPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\Share.csproj",
         "packagesPath": "C:\\Users\\ReDent\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ReDent\\Desktop\\sandra\\Udemy\\routingAndforms\\Shared\\obj\\",
         "projectStyle": "PackageReference",
@@ -136,6 +148,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.3, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
             }
           },
           "imports": [
