@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Routing.Entities;
@@ -13,6 +15,7 @@ namespace Server.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class PeopleController : ControllerBase
     {
         private readonly ApplicationDbContext context;
@@ -36,6 +39,7 @@ namespace Server.Controllers
             return await queryable.Paginate(paginationDTO).ToListAsync();
         }
         [HttpGet("{Id}")]
+        
         public async Task<ActionResult<Person>> Get(int id)
         {
             var person = await context.Person.FirstOrDefaultAsync(x => x.Id == id);

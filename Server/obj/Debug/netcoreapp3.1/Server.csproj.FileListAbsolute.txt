@@ -73,7 +73,6 @@ C:\Users\ReDent\source\repos\Routing\Server\bin\Debug\netcoreapp3.1\runtimes\uni
 C:\Users\ReDent\source\repos\Routing\Server\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\ReDent\source\repos\Routing\Server\obj\Debug\netcoreapp3.1\Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.csprojAssemblyReference.cache
-C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
@@ -224,3 +223,16 @@ C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.dll
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.pdb
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.MvcApplicationPartsAssemblyInfo.cache

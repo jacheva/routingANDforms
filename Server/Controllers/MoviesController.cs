@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Routing.Entities;
@@ -15,6 +17,7 @@ namespace Server.Controllers
 
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class MoviesController : ControllerBase
     {
         private readonly ApplicationDbContext context;
@@ -33,6 +36,7 @@ namespace Server.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IndexPageDTO>> Get()
         {
             var limit = 6;
@@ -56,6 +60,7 @@ namespace Server.Controllers
             return response;
         }
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<DetailsMovieDTo>> Get(int id)
         {
             var movie = await context.Movies.Where(x => x.Id == id)
@@ -80,6 +85,7 @@ namespace Server.Controllers
         }
 
         [HttpPost("filter")]
+        [AllowAnonymous]
         public async Task<ActionResult<List<Movie>>> Filter(FilterMoviesDTO filterMoviesDTO)
         {
             var moviesQueryable = context.Movies.AsQueryable();
