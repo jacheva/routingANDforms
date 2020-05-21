@@ -101,6 +101,13 @@ using Microsoft.AspNetCore.Components.Authorization;
 #line hidden
 #nullable disable
 #nullable restore
+#line 14 "C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\_Imports.razor"
+using Share.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 4 "C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\Pages\Genres\CreateGenre.razor"
            [Authorize]
 

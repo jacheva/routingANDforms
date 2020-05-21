@@ -6,3 +6,9 @@
 /.vs/Routing/v16/Server/sqlite3/storage.ide-wal
 /.vs/Routing/v16/Server/sqlite3/storage.ide-shm
 /.vs/Routing/v16/Server/sqlite3/storage.ide
+/.vs/Routing/v16/.suo
+*/**/bin/Debug
+*/**/bin/Release
+*/**/obj/Debug
+*/**/obj/Release
+

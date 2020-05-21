@@ -104,6 +104,13 @@ using Microsoft.AspNetCore.Components.Authorization;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\_Imports.razor"
+using Share.Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class CustomNotFound : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
