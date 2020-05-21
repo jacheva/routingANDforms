@@ -11,4 +11,6 @@
 */**/bin/Release
 */**/obj/Debug
 */**/obj/Release
+*/**/bin/**/*
+*/**/obj/**/*
 
