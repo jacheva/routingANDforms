@@ -21,7 +21,7 @@ namespace Routing.Repository
         {
             var httpResponse = await httpService.Post(urlBase, movieRating);
             
-            if (httpResponse.Success)
+            if (!httpResponse.Success)
             {
                 throw new ApplicationException(await httpResponse.GetBody());
             }
