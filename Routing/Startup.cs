@@ -41,6 +41,7 @@ namespace Routing
             services.AddScoped<IAccountsRepository, AccountsRepository>();
             services.AddScoped<IRatingRepository, RatingRepository>();
             services.AddScoped<IDisplayMessage, DisplayMessage>();
+            services.AddScoped<IUsersRepository, UsersRepository>();
 
             services.AddSingleton<WeatherForecastService>();
             services.AddFileReaderService(options => options.InitializeOnFirstCall = true);

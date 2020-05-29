@@ -33,7 +33,7 @@ namespace Routing.Repository
         }
         public async Task<Person> GetPersonById (int Id)
         {
-            return await httpService.GetHelper<Person>($"{url}{Id}");
+            return await httpService.GetHelper<Person>($"{url}/{Id}");
         }
 
         public async Task CreatePerson(Person person)

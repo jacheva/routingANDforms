@@ -235,3 +235,4 @@ C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.dll
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.pdb
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Server\obj\Debug\netcoreapp3.1\Server.csprojAssemblyReference.cache

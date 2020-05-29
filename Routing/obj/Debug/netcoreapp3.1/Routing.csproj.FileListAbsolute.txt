@@ -282,3 +282,7 @@ C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\obj\Debug\netcoreap
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\obj\Debug\netcoreapp3.1\Routing.dll
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\obj\Debug\netcoreapp3.1\Routing.pdb
 C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\obj\Debug\netcoreapp3.1\Routing.genruntimeconfig.cache
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Users\EditUser.razor.g.cs
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Users\IndexUsers.razor.g.cs
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\obj\Debug\netcoreapp3.1\Razor\Pages\Users\EditUser.razor.g.cs
+C:\Users\ReDent\Desktop\sandra\Udemy\routingAndforms\Routing\obj\Debug\netcoreapp3.1\Razor\Pages\Users\IndexUsers.razor.g.cs

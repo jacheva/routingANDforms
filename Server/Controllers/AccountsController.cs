@@ -38,7 +38,7 @@ namespace Server.Controllers
             var result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
-                return BuildToken(model);
+                return await BuildToken(model);
             }
             else
             {
@@ -53,7 +53,7 @@ namespace Server.Controllers
 
             if (result.Succeeded)
             {
-                return BuildToken(userInfo);
+                return await BuildToken(userInfo);
             }
             else
             {
@@ -62,7 +62,7 @@ namespace Server.Controllers
                   
         }
 
-        private UserToken BuildToken(UserInfo userInfo)
+        private async Task<UserToken> BuildToken(UserInfo userInfo)
         {
             var claims = new List<Claim>()
             {
@@ -70,6 +70,11 @@ namespace Server.Controllers
                 new Claim(ClaimTypes.Email, userInfo.Email),
                 new Claim("myvalue", "whatever I want ")
             };
+
+            var identityUser = await _userManager.FindByEmailAsync(userInfo.Email);
+            var claimsDB = await _userManager.GetClaimsAsync(identityUser);
+
+            claims.AddRange(claimsDB);
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
